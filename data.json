@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "aadhaar": "123456789012",
+      "name": "Ravi Kumar",
+      "linkedMobile": "9999999999",
+      "otp": "123456"
+    },
+    {
+      "aadhaar": "987654321098",
+      "name": "Pooja Sharma",
+      "linkedMobile": "8888888888",
+      "otp": "654321"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main{
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+      flex-direction: column;
+}
+
+.headline{
+  height: 68px;
+  width: 100%;
+  background-color: #d9e1e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* Tablet adjustments */
+@media (max-width: 992px) {
+  .headline {
+    font-size: 18px;
+    padding: 12px 8px;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .headline {
+    font-size: 16px;
+    padding: 10px 6px;
+  }
+}
